@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "./Sky-Check/static/css/main.18755cda.css",
+    "main.js": "./Sky-Check/static/js/main.85ce3221.js",
+    "index.html": "./Sky-Check/index.html",
+    "main.18755cda.css.map": "./Sky-Check/static/css/main.18755cda.css.map",
+    "main.85ce3221.js.map": "./Sky-Check/static/js/main.85ce3221.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18755cda.css",
+    "static/js/main.85ce3221.js"
+  ]
+}
