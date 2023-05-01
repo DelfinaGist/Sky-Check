@@ -2,15 +2,16 @@
   display: flex;
   padding: 35px;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  background: linear-gradient(#98f3db, #b4a9f7)
+  background: linear-gradient(#98f3db, #b4a9f7);
+  min-height: 100vh;
 }
 
 .input {
   padding: 5px;
   width: 45%;
-  margin: auto;
+  margin: 20px;
   border: 6px solid rgb(104, 179, 201);
   border-radius: 10px;
   font-size: 15px;
