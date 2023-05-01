@@ -1,3 +1,26 @@
+Sky-Check Weather App 
+
+Technologies used for this project: 
+CSS, HTML,  JAVE SCRIPT, API, AND REACT.
+
+The approach: 
+To receive weather information from the API via the API key to provide the user with weather information.
+
+Live link to Sky-Check Weather App: #
+https://delfinagist.github.io/Sky-Check/
+
+To display weather information from the Sky-Check weather app type in a location (city or state).
+My future goals:  add time and date to the app.
+
+Unsolved problems:
+Displaying live link.
+
+Installation instructions:
+ To run the app locally, follow these steps:
+
+Clone the repository to your local machine https://github.com/DelfinaGist/Sky-Check.git
+Install the required dependencies by running npm install Start the development server by running npm start.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
