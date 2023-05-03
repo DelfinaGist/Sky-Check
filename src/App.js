@@ -2,13 +2,16 @@ import React, {useState} from 'react';
 import './App.css';
 
 function getWindDirection(deg) {
-  const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW']
+  const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+  const index = Math.round((deg % 360) / 45);
+  return directions[index];
 }
+
 
 function App() {
 
   const apiKey = process.env.REACT_APP_API_KEY;
-  
+
   const [weatherData, setWeatherData] = useState([{}]);
   const [city, setCity] = useState("")
 
