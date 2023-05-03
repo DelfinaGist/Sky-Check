@@ -7,7 +7,6 @@ function getWindDirection(deg) {
   return directions[index];
 }
 
-
 function App() {
 
   const apiKey = process.env.REACT_APP_API_KEY;
@@ -26,7 +25,6 @@ function App() {
     }
   };
   
-
   return (
     <div className="container">
 
