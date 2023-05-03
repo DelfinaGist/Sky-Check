@@ -7,7 +7,8 @@ function getWindDirection(deg) {
 
 function App() {
 
-  const apiKey = `32d9f1a0c954f5656882096bc0b1ed1f`;
+  const apiKey = process.env.REACT_APP_API_KEY;
+  
   const [weatherData, setWeatherData] = useState([{}]);
   const [city, setCity] = useState("")
 
